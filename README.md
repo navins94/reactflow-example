@@ -11,7 +11,9 @@ This project is a demonstration of using the ReactFlow library to create a flow 
 
 ## Getting Started
 
-To get started with this project, follow the steps below:
+To see a live demo of the application, you can visit the following URL: [Demo](https://master--lustrous-dragon-b44d2f.netlify.app/)
+
+To get started with this project locally, follow the steps below:
 
 1. Clone the repository:
 

@@ -55,7 +55,7 @@ const Header = () => {
               className="relative py-3 px-4  leading-normal text-green-700 bg-green-100 rounded-lg text-center"
               role="success"
             >
-              <p className="text-center">Save Successfully</p>
+              <p className="text-center">Saved Successfully</p>
             </div>
           )}
         </div>
