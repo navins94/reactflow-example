@@ -1,29 +1,43 @@
-# Redux Toolkit TypeScript Example
+# ReactFlow Example
 
-This example shows how to integrate Next.js with [Redux Toolkit](https://redux-toolkit.js.org).
+This project is a demonstration of using the ReactFlow library to create a flow builder with nodes and edges. The flow builder supports different types of nodes and allows connections between them using edges.
 
-The **Redux Toolkit** is a standardized way to write Redux logic (create actions and reducers, setup the store with some default middlewares like redux devtools extension). This example demonstrates each of these features with Next.js
+## Features
 
-## Deploy your own
+- Add and remove nodes from the flow builder.
+- Connect nodes together by creating edges.
+- Drag and drop nodes from a panel onto the flow builder.
+- Supports multiple types of nodes, including text nodes.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## Getting Started
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-redux&project-name=with-redux&repository-name=with-redux)
+To get started with this project, follow the steps below:
 
-## How to use
+1. Clone the repository:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+   ```bash
+   git clone https://github.com/navins94/reactflow-example
+   ```
 
-```bash
-npx create-next-app --example with-redux with-redux-app
-```
+2. Install the dependencies:
 
-```bash
-yarn create next-app --example with-redux with-redux-app
-```
+   ```bash
+   cd reactflow-example
+   npm install
+   ```
 
-```bash
-pnpm create next-app --example with-redux with-redux-app
-```
+3. Start the development server:
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+   ```bash
+   npm run dev
+   ```
+
+4. Open your web browser and navigate to http://localhost:3000 to see the application.
+
+## Usage
+
+Once the application is running, you can use the flow builder to create your desired flow:
+
+- Drag and drop nodes from the nodes panel onto the flow builder canvas.
+- Connect nodes together by clicking and dragging from one node to another.
+- Remove nodes or edges by selecting them and pressing the delete key.
