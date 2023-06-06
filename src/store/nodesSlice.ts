@@ -23,7 +23,14 @@ const initialDummyNodes = [
   {
     id: "1",
     position: { x: 100, y: 100 },
-    data: { text: "text message" },
+    data: { text: "text message 1" },
+    type: NodeTypes.Text,
+    selected: false,
+  },
+  {
+    id: "2",
+    position: { x: 420, y: 220 },
+    data: { text: "text message 2" },
     type: NodeTypes.Text,
     selected: false,
   },

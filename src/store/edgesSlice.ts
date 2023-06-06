@@ -12,8 +12,10 @@ interface EdgesState {
   edges: Edge[];
 }
 
+const initialDummyEdges: Edge[] = [{ id: "e1-2", source: "1", target: "2" }];
+
 const initialState: EdgesState = {
-  edges: [],
+  edges: initialDummyEdges,
 };
 
 const edgesSlice = createSlice({
